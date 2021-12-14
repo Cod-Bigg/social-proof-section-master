@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box; 
+   
+}
+body{
+    background-color: #FFFFFF;
+    background-image: url("https://i.ibb.co/G7SnJKT/bg-pattern-top-desktop-1.png"), url("https://i.ibb.co/3rnXjh4/bg-pattern-bottom-desktop.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, 50% 160%;
+}
+h1{
+    color:hsl(300, 43%, 22%);
+    font-family: 'Spartan', sans-serif;
+    font-weight:700;
+    margin-left:13px;
+    
+}
+span {
+    color: hsl(303, 10%, 53%)
+}
+#flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 55px;
+    
+}
+
+#initial-info{
+    height: 200px;
+    width: 350px;
+    margin-right: 200px;
+    line-height: 1.2;
+}
+#initial-info p{
+    color:#C8C2C8;
+    font-family:'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 13px;
+}
+#review-flex-container{
+    display: flex;
+    justify-content: center;
+}
+#rated-container{
+    margin-top:25px;
+}
+
+ #rated-container p:first-child{
+    margin-left:15px;
+    background-color: #F7F2F8;
+    border-radius: 10px;
+    padding: 15px;
+    color:#502050;
+    font-family:'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    
+}
+#rated-container p:nth-child(2){
+    margin-left:35px;
+    background-color: #F7F2F8;
+    border-radius: 10px;
+    padding: 15px;
+    color:#502050;
+    font-family:'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+#rated-container p:last-child{
+    margin-left:75px;
+    background-color: #F7F2F8;
+    border-radius: 10px;
+    padding: 15px;
+    color:#502050;
+    font-family:'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.review-container{
+    height: 250px;
+    width: 300px;
+    margin-left: 20px;
+    background-color: hsl(300, 43%, 22%);
+    color:#DFBEDE;
+    padding: 15px;
+    border-radius: 5%;
+    
+}
+#first-review{
+    background-color:#511F50;
+    color:#D0AFCE;
+    border-radius: 5%;
+}
+#first-review p:last-child{
+    padding-top:15px;
+    letter-spacing: .3px;
+}
+#second-review {
+    margin-top: 13px;
+}
+#second-review p:last-child{
+    padding-top: 15px;
+    letter-spacing: .3px;
+}
+#third-review{
+    margin-top: 25px;
+    background-image: url("https://i.ibb.co/3rnXjh4/bg-pattern-bottom-desktop.png");
+}
+#third-review p:last-child{
+    padding-top: 15px;
+    letter-spacing: .3px;
+}
+
+img{
+    float:left;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
+ .verified-img p:nth-child(2){
+     padding-top: 30px;
+    margin-bottom: -35px;
+ }
+.verified-img p:last-child{
+    padding-top: 20px;
+}
+.review-text{
+    text-align: justify;
+}
+.btn-img{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+}
